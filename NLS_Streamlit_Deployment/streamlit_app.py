@@ -3,6 +3,8 @@ from pathlib import Path
 import streamlit as st
 import streamlit.components.v1 as components
 
+from page2_dashboard import render_page2
+
 
 APP_DIR = Path(__file__).resolve().parent
 VISUAL_DIR = APP_DIR / "visuals"
@@ -18,33 +20,47 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    :root {
-        --nls-ink: #1f2933;
-        --nls-rule: #d9dee3;
-    }
-    [data-testid="stAppViewContainer"] {
-        background: #f4f5f6;
-        color: var(--nls-ink);
-    }
+    :root { --ink:#24272b; --muted:#687078; --rule:#d9dee3; }
+    [data-testid="stAppViewContainer"] { background:#f4f5f6; color:var(--ink); }
     [data-testid="stSidebar"] {
-        background: #ffffff;
-        border-right: 1px solid var(--nls-rule);
+        background:#fff; border-right:1px solid var(--rule);
     }
     [data-testid="stSidebar"] *,
     [data-testid="stExpander"] *,
-    [data-testid="stMarkdownContainer"] {
-        color: var(--nls-ink);
-    }
+    [data-testid="stMarkdownContainer"] { color:var(--ink); }
     .block-container {
-        max-width: 1240px;
-        padding-top: 1.2rem;
-        padding-bottom: 3rem;
+        max-width:1280px; padding-top:1.4rem; padding-bottom:3rem;
     }
+    h1,h2,h3,p,[data-testid="stCaptionContainer"] {
+        white-space:normal !important;
+        overflow-wrap:break-word !important;
+        word-break:normal !important;
+        overflow:visible !important;
+        text-overflow:clip !important;
+    }
+    .page-intro {
+        color:var(--muted); font-size:1.04rem; line-height:1.65;
+        max-width:980px; margin-bottom:.5rem;
+    }
+    .section-label {
+        color:#52606b; font-size:.78rem; font-weight:750;
+        letter-spacing:.1em; margin:2.5rem 0 .45rem;
+        text-transform:uppercase;
+    }
+    div[data-testid="stSegmentedControl"] { margin:.35rem 0 .8rem; }
+    div[data-testid="stSegmentedControl"] button[aria-pressed="true"] {
+        background:#247B78 !important; border-color:#247B78 !important;
+        color:#fff !important; font-weight:700 !important;
+    }
+    div[data-testid="stSegmentedControl"] button[aria-pressed="false"] {
+        background:#fff !important; border:1px solid #aeb7bf !important;
+        color:var(--ink) !important;
+    }
+    div[data-testid="stAlert"] { border-left:4px solid #247B78; }
     div[data-testid="stDownloadButton"] button {
-        border-color: var(--nls-rule);
-        width: 100%;
+        border-color:var(--rule); width:100%;
     }
-    footer { visibility: hidden; }
+    footer { visibility:hidden; }
     </style>
     """,
     unsafe_allow_html=True,
@@ -60,7 +76,7 @@ def data_downloads(folder: str, heading: str) -> None:
     files = sorted((DATA_DIR / folder).glob("*.csv"))
     with st.expander(heading, expanded=False):
         st.caption(
-            "These small files contain the numbers used in the charts. "
+            "These small files contain the values used in the charts. "
             "The full catalogue dataset is not loaded by this website."
         )
         for path in files:
@@ -75,28 +91,14 @@ def data_downloads(folder: str, heading: str) -> None:
 
 st.sidebar.markdown("## NLS Catalogue")
 st.sidebar.caption("Publication-place metadata visualisation")
-
 page = st.sidebar.radio(
     "Explore",
-    options=[
-        "Catalogue overview",
-        "Publisher relationships",
-    ],
+    options=["Catalogue overview", "Publication-place patterns"],
     label_visibility="collapsed",
 )
 
 if page == "Catalogue overview":
-    components.html(
-        load_html("page1_overview.html"),
-        height=1980,
-        scrolling=False,
-    )
+    components.html(load_html("page1_overview.html"), height=1980, scrolling=False)
     data_downloads("page1", "Download Page 1 data")
-
 else:
-    components.html(
-        load_html("page2_relationships.html"),
-        height=2500,
-        scrolling=False,
-    )
-    data_downloads("page2", "Download Page 2 data")
+    render_page2(DATA_DIR / "page2", data_downloads)
