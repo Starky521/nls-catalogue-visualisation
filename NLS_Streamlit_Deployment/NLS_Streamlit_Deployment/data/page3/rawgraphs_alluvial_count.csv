@@ -1,0 +1,63 @@
+material_type,date_status,publisher_status,place_result_display,count
+Notated music,Date present,Publisher present,Place identified,20037
+Notated music,Date present,Publisher present,Place unresolved,14205
+Notated music,Date present,Publisher present,Explicitly unknown / ambiguous,743
+Notated music,Date present,Publisher missing,Not assessed (Publisher missing),12
+Notated music,Date missing,Publisher present,Place identified,115
+Notated music,Date missing,Publisher present,Place unresolved,53
+Notated music,Date missing,Publisher present,Explicitly unknown / ambiguous,15
+Notated music,Date missing,Publisher missing,Not assessed (Publisher missing),293035
+Sound recording,Date present,Publisher present,Place identified,3399
+Sound recording,Date present,Publisher present,Place unresolved,1076
+Sound recording,Date present,Publisher present,Explicitly unknown / ambiguous,96
+Sound recording,Date present,Publisher missing,Not assessed (Publisher missing),5
+Sound recording,Date missing,Publisher present,Place identified,63
+Sound recording,Date missing,Publisher present,Place unresolved,68
+Sound recording,Date missing,Publisher present,Explicitly unknown / ambiguous,5
+Sound recording,Date missing,Publisher missing,Not assessed (Publisher missing),14194
+Still image,Date present,Publisher present,Place identified,1395
+Still image,Date present,Publisher present,Place unresolved,644
+Still image,Date present,Publisher present,Explicitly unknown / ambiguous,77
+Still image,Date present,Publisher missing,Not assessed (Publisher missing),106
+Still image,Date missing,Publisher present,Place identified,1
+Still image,Date missing,Publisher present,Place unresolved,5
+Still image,Date missing,Publisher missing,Not assessed (Publisher missing),1780
+Software / multimedia,Date present,Publisher present,Place identified,652
+Software / multimedia,Date present,Publisher present,Place unresolved,435
+Software / multimedia,Date present,Publisher present,Explicitly unknown / ambiguous,16
+Software / multimedia,Date present,Publisher missing,Not assessed (Publisher missing),2
+Software / multimedia,Date missing,Publisher present,Place identified,34
+Software / multimedia,Date missing,Publisher present,Place unresolved,26
+Software / multimedia,Date missing,Publisher present,Explicitly unknown / ambiguous,7
+Software / multimedia,Date missing,Publisher missing,Not assessed (Publisher missing),100
+Cartographic,Date present,Publisher present,Place identified,49410
+Cartographic,Date present,Publisher present,Place unresolved,24821
+Cartographic,Date present,Publisher present,Explicitly unknown / ambiguous,1457
+Cartographic,Date present,Publisher missing,Not assessed (Publisher missing),764
+Cartographic,Date missing,Publisher present,Place identified,58
+Cartographic,Date missing,Publisher present,Place unresolved,78
+Cartographic,Date missing,Publisher present,Explicitly unknown / ambiguous,13
+Cartographic,Date missing,Publisher missing,Not assessed (Publisher missing),2911
+Moving image,Date present,Publisher present,Place identified,1159
+Moving image,Date present,Publisher present,Place unresolved,357
+Moving image,Date present,Publisher present,Explicitly unknown / ambiguous,47
+Moving image,Date present,Publisher missing,Not assessed (Publisher missing),15
+Moving image,Date missing,Publisher present,Place identified,4
+Moving image,Date missing,Publisher present,Place unresolved,1
+Moving image,Date missing,Publisher missing,Not assessed (Publisher missing),167
+Text,Date present,Publisher present,Place identified,3115551
+Text,Date present,Publisher present,Place unresolved,826071
+Text,Date present,Publisher present,Explicitly unknown / ambiguous,44404
+Text,Date present,Publisher missing,Not assessed (Publisher missing),44778
+Text,Date missing,Publisher present,Place identified,70997
+Text,Date missing,Publisher present,Place unresolved,66960
+Text,Date missing,Publisher present,Explicitly unknown / ambiguous,3619
+Text,Date missing,Publisher missing,Not assessed (Publisher missing),483763
+Other / not recorded,Date present,Publisher present,Place identified,826
+Other / not recorded,Date present,Publisher present,Place unresolved,308
+Other / not recorded,Date present,Publisher present,Explicitly unknown / ambiguous,30
+Other / not recorded,Date present,Publisher missing,Not assessed (Publisher missing),4682
+Other / not recorded,Date missing,Publisher present,Place identified,20
+Other / not recorded,Date missing,Publisher present,Place unresolved,24
+Other / not recorded,Date missing,Publisher present,Explicitly unknown / ambiguous,14
+Other / not recorded,Date missing,Publisher missing,Not assessed (Publisher missing),157653

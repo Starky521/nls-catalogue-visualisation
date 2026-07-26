@@ -1,0 +1,97 @@
+language,language_label,outcome,count,percentage_within_language,total_records_in_language,minimum_sample_passed
+ara,Arabic,Place identified,649,37.191977077363894,1745,True
+ara,Arabic,Place unresolved,459,26.303724928366762,1745,True
+ara,Arabic,Publisher missing,622,35.64469914040115,1745,True
+ara,Arabic,Unknown / ambiguous,15,0.8595988538681949,1745,True
+cat,cat,Place identified,898,76.16624257845632,1179,True
+cat,cat,Place unresolved,211,17.89652247667515,1179,True
+cat,cat,Publisher missing,68,5.767599660729432,1179,True
+cat,cat,Unknown / ambiguous,2,0.16963528413910092,1179,True
+chi,Chinese,Place identified,813,47.130434782608695,1725,True
+chi,Chinese,Place unresolved,649,37.6231884057971,1725,True
+chi,Chinese,Publisher missing,232,13.449275362318842,1725,True
+chi,Chinese,Unknown / ambiguous,31,1.7971014492753623,1725,True
+cze,cze,Place identified,209,11.61111111111111,1800,True
+cze,cze,Place unresolved,1492,82.88888888888889,1800,True
+cze,cze,Publisher missing,82,4.555555555555555,1800,True
+cze,cze,Unknown / ambiguous,17,0.9444444444444444,1800,True
+dan,Danish,Place identified,905,16.374163198842048,5527,True
+dan,Danish,Place unresolved,4387,79.37398226886195,5527,True
+dan,Danish,Publisher missing,193,3.4919486158856525,5527,True
+dan,Danish,Unknown / ambiguous,42,0.7599059164103492,5527,True
+dut,Dutch,Place identified,2538,27.02587583856884,9391,True
+dut,Dutch,Place unresolved,6240,66.4465978064104,9391,True
+dut,Dutch,Publisher missing,474,5.047385794910021,9391,True
+dut,Dutch,Unknown / ambiguous,139,1.4801405601107442,9391,True
+eng,English,Place identified,3021914,72.43731908132867,4171764,True
+eng,English,Place unresolved,664228,15.921993669824083,4171764,True
+eng,English,Publisher missing,449882,10.78397531595747,4171764,True
+eng,English,Unknown / ambiguous,35740,0.85671193288978,4171764,True
+fre,French,Place identified,85272,68.0439518349173,125319,True
+fre,French,Place unresolved,34606,27.614328234345948,125319,True
+fre,French,Publisher missing,4423,3.5293929890918374,125319,True
+fre,French,Unknown / ambiguous,1018,0.8123269416449221,125319,True
+ger,German,Place identified,27488,25.22969041128581,108951,True
+ger,German,Place unresolved,55987,51.38732090572826,108951,True
+ger,German,Publisher missing,19462,17.86307606171582,108951,True
+ger,German,Unknown / ambiguous,6014,5.519912621270112,108951,True
+gla,Scottish Gaelic,Place identified,1521,31.947069943289225,4761,True
+gla,Scottish Gaelic,Place unresolved,2019,42.407057340894774,4761,True
+gla,Scottish Gaelic,Publisher missing,1148,24.11258139046419,4761,True
+gla,Scottish Gaelic,Unknown / ambiguous,73,1.5332913253518168,4761,True
+gle,Irish,Place identified,314,14.625058220773171,2147,True
+gle,Irish,Place unresolved,1380,64.27573358174197,2147,True
+gle,Irish,Publisher missing,445,20.72659524918491,2147,True
+gle,Irish,Unknown / ambiguous,8,0.37261294829995345,2147,True
+grc,grc,Place identified,1596,51.45067698259188,3102,True
+grc,grc,Place unresolved,1476,47.582205029013544,3102,True
+grc,grc,Publisher missing,24,0.7736943907156674,3102,True
+grc,grc,Unknown / ambiguous,6,0.19342359767891684,3102,True
+gre,gre,Place identified,717,23.523622047244093,3048,True
+gre,gre,Place unresolved,1720,56.43044619422572,3048,True
+gre,gre,Publisher missing,155,5.085301837270341,3048,True
+gre,gre,Unknown / ambiguous,456,14.960629921259844,3048,True
+iri,iri,Place identified,1927,40.238045520985594,4789,True
+iri,iri,Place unresolved,2804,58.55084568803508,4789,True
+iri,iri,Publisher missing,36,0.7517226978492378,4789,True
+iri,iri,Unknown / ambiguous,22,0.45938609313008977,4789,True
+ita,Italian,Place identified,27133,66.12804952353099,41031,True
+ita,Italian,Place unresolved,11896,28.99271282688699,41031,True
+ita,Italian,Publisher missing,1767,4.306499963442275,41031,True
+ita,Italian,Unknown / ambiguous,235,0.572737686139748,41031,True
+lat,Latin,Place identified,11613,18.674921604888638,62185,True
+lat,Latin,Place unresolved,45095,72.51748814022673,62185,True
+lat,Latin,Publisher missing,632,1.0163222642116265,62185,True
+lat,Latin,Unknown / ambiguous,4845,7.791267990672991,62185,True
+nor,Norwegian,Place identified,3447,69.46795646916566,4962,True
+nor,Norwegian,Place unresolved,1361,27.428456267634015,4962,True
+nor,Norwegian,Publisher missing,120,2.418379685610641,4962,True
+nor,Norwegian,Unknown / ambiguous,34,0.6852075775896815,4962,True
+pol,Polish,Place identified,1175,14.403039960774699,8158,True
+pol,Polish,Place unresolved,6625,81.20862956607012,8158,True
+pol,Polish,Publisher missing,332,4.069624908065703,8158,True
+pol,Polish,Unknown / ambiguous,26,0.3187055650894827,8158,True
+por,Portuguese,Place identified,512,10.640066500415628,4812,True
+por,Portuguese,Place unresolved,3217,66.85369908561928,4812,True
+por,Portuguese,Publisher missing,1055,21.92435577722361,4812,True
+por,Portuguese,Unknown / ambiguous,28,0.5818786367414797,4812,True
+rus,Russian,Place identified,18459,61.872360394181136,29834,True
+rus,Russian,Place unresolved,8478,28.41724207280284,29834,True
+rus,Russian,Publisher missing,2805,9.402024535764564,29834,True
+rus,Russian,Unknown / ambiguous,92,0.30837299725145806,29834,True
+sco,sco,Place identified,1339,59.22158337019018,2261,True
+sco,sco,Place unresolved,497,21.981424148606813,2261,True
+sco,sco,Publisher missing,411,18.17779743476338,2261,True
+sco,sco,Unknown / ambiguous,14,0.6191950464396285,2261,True
+spa,Spanish,Place identified,14053,51.178120106340366,27459,True
+spa,Spanish,Place unresolved,11071,40.31829272733894,27459,True
+spa,Spanish,Publisher missing,2075,7.55672092938563,27459,True
+spa,Spanish,Unknown / ambiguous,260,0.9468662369350669,27459,True
+swe,Swedish,Place identified,3627,57.17213114754098,6344,True
+swe,Swedish,Place unresolved,2288,36.0655737704918,6344,True
+swe,Swedish,Publisher missing,387,6.100252206809584,6344,True
+swe,Swedish,Unknown / ambiguous,42,0.6620428751576293,6344,True
+wel,Welsh,Place identified,1757,10.799680373716884,16269,True
+wel,Welsh,Place unresolved,13643,83.8588727026861,16269,True
+wel,Welsh,Publisher missing,731,4.493207941483804,16269,True
+wel,Welsh,Unknown / ambiguous,138,0.8482389821132215,16269,True
