@@ -4,6 +4,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 from page2_dashboard import render_page2
+from page3_missingness import render_page3
 
 
 APP_DIR = Path(__file__).resolve().parent
@@ -93,12 +94,18 @@ st.sidebar.markdown("## NLS Catalogue")
 st.sidebar.caption("Publication-place metadata visualisation")
 page = st.sidebar.radio(
     "Explore",
-    options=["Catalogue overview", "Publication-place patterns"],
+    options=[
+        "Catalogue overview",
+        "Publication-place patterns",
+        "Missingness and uncertainty",
+    ],
     label_visibility="collapsed",
 )
 
 if page == "Catalogue overview":
     components.html(load_html("page1_overview.html"), height=1980, scrolling=False)
     data_downloads("page1", "Download Page 1 data")
-else:
+elif page == "Publication-place patterns":
     render_page2(DATA_DIR / "page2", data_downloads)
+else:
+    render_page3(DATA_DIR / "page3", data_downloads)

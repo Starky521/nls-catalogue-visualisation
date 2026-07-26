@@ -1,28 +1,39 @@
 # NLS Catalogue Visualisation
 
-A two-page Streamlit site presenting interactive Plotly outputs from the
-National Library of Scotland catalogue publication-place project.
+A three-page Streamlit site presenting interactive analysis of publication-place
+metadata in the National Library of Scotland catalogue.
 
 ## Pages
 
-- **Catalogue Metadata Overview** — field completeness, publication-place
-  metadata outcomes, and identified publication geography.
-- **Publisher Relationships** — publication-place outcomes by material type,
-  decade, and language, with a methodologically constrained Scotland focus.
+- **Catalogue overview** — field completeness, publication-place results and
+  identified publication geography.
+- **Publication-place patterns** — results by material type, decade and
+  language.
+- **Missingness and uncertainty** — an interactive four-stage pathway chart
+  linking material type, Date information, Publisher information and the final
+  publication-place result.
 
-The website reads only compact aggregate CSV files and prebuilt Plotly HTML. It
-does not load the multi-million-row master Parquet dataset.
+The website reads processed CSV files rather than the five-million-row master
+Parquet dataset.
 
-## Deploy without VS Code
+## Page 3 data
 
-1. Create a new GitHub repository.
-2. Upload every file and folder from this project, preserving the structure.
-3. Open [Streamlit Community Cloud](https://share.streamlit.io/).
-4. Choose **Create app** and select the GitHub repository.
-5. Set the entrypoint to `streamlit_app.py`.
-6. Deploy.
+Page 3 reads these files from `data/page3`:
 
-## Run locally (optional)
+- `alluvial_counts_full.csv` — complete pathway counts, including period and
+  language groups for filtering.
+- `record_examples.csv` — deterministic representative catalogue records.
+
+The folder also contains the two small RAWGraphs experiment files:
+
+- `rawgraphs_alluvial_percentage.csv`
+- `rawgraphs_alluvial_count.csv`
+
+The full research data keeps `Explicitly unknown` and `Ambiguous` separate.
+`Not assessed (Publisher missing)` is used only when the Publisher field is
+blank.
+
+## Run locally
 
 ```bash
 python -m pip install -r requirements.txt
@@ -32,15 +43,14 @@ streamlit run streamlit_app.py
 ## Project structure
 
 ```text
-streamlit_nls_site/
-├── .streamlit/
-│   └── config.toml
+NLS_Streamlit_Deployment/
 ├── data/
 │   ├── page1/
-│   └── page2/
+│   ├── page2/
+│   └── page3/
 ├── visuals/
-│   ├── page1_overview.html
-│   └── page2_relationships.html
+├── page2_dashboard.py
+├── page3_missingness.py
 ├── streamlit_app.py
 ├── requirements.txt
 └── README.md
