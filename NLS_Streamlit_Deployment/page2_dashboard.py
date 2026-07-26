@@ -48,7 +48,6 @@ def layout(
     bottom: int = 90,
 ) -> go.Figure:
     fig.update_layout(
-        title=None,
         height=height,
         margin=dict(l=left, r=right, t=20, b=bottom),
         paper_bgcolor="white",
@@ -101,10 +100,16 @@ def plot(fig: go.Figure) -> None:
 
 
 def all_type(data: pd.DataFrame) -> go.Figure:
-    types = [
-        "text", "cartographic", "moving image", "still image",
-        "software/multimedia", "sound recording", "notated music",
-    ]
+    type_matrix = data.pivot(
+        index="document_type",
+        columns="outcome",
+        values="percentage_within_type",
+    )
+    types = (
+        (100 - type_matrix["Place identified"])
+        .sort_values(ascending=False)
+        .index.tolist()
+    )
     fig = go.Figure()
     for outcome in ORDER:
         current = (
