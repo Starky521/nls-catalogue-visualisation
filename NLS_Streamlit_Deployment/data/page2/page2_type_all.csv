@@ -1,0 +1,29 @@
+document_type,outcome,count,percentage_within_type,total_records_in_type
+text,Place identified,3186548,68.43750288597235,4656143
+text,Place unresolved,893031,19.179630007068084,4656143
+text,Publisher missing,528541,11.351476962799467,4656143
+text,Unknown / ambiguous,48023,1.0313901441600912,4656143
+notated music,Place identified,20152,6.139877823987326,328215
+notated music,Place unresolved,14258,4.344103712505523,328215
+notated music,Publisher missing,293047,89.28507228493518,328215
+notated music,Unknown / ambiguous,758,0.23094617857197264,328215
+cartographic,Place identified,49468,62.21450850186135,79512
+cartographic,Place unresolved,24899,31.31477009759533,79512
+cartographic,Publisher missing,3675,4.621943857530939,79512
+cartographic,Unknown / ambiguous,1470,1.8487775430123754,79512
+sound recording,Place identified,3462,18.31164709615995,18906
+sound recording,Place unresolved,1144,6.050989103988152,18906
+sound recording,Publisher missing,14199,75.10314185972707,18906
+sound recording,Unknown / ambiguous,101,0.534221940124828,18906
+still image,Place identified,1396,34.830339321357286,4008
+still image,Place unresolved,649,16.192614770459084,4008
+still image,Publisher missing,1886,47.05588822355289,4008
+still image,Unknown / ambiguous,77,1.9211576846307385,4008
+moving image,Place identified,1163,66.45714285714286,1750
+moving image,Place unresolved,358,20.457142857142856,1750
+moving image,Publisher missing,182,10.4,1750
+moving image,Unknown / ambiguous,47,2.685714285714286,1750
+software/multimedia,Place identified,686,53.930817610062896,1272
+software/multimedia,Place unresolved,461,36.242138364779876,1272
+software/multimedia,Publisher missing,102,8.018867924528301,1272
+software/multimedia,Unknown / ambiguous,23,1.8081761006289307,1272
