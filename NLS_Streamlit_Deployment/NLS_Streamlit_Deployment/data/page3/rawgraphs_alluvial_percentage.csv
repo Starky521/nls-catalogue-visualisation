@@ -1,0 +1,63 @@
+material_type,date_status,publisher_status,place_result_display,count,percentage_within_material_type
+Notated music,Date present,Publisher present,Place identified,20037,6.104839815364929
+Notated music,Date present,Publisher present,Place unresolved,14205,4.327955760705636
+Notated music,Date present,Publisher present,Explicitly unknown / ambiguous,743,0.22637600353426868
+Notated music,Date present,Publisher missing,Not assessed (Publisher missing),12,0.0036561400301631554
+Notated music,Date missing,Publisher present,Place identified,115,0.03503800862239691
+Notated music,Date missing,Publisher present,Place unresolved,53,0.016147951799887268
+Notated music,Date missing,Publisher present,Explicitly unknown / ambiguous,15,0.004570175037703944
+Notated music,Date missing,Publisher missing,Not assessed (Publisher missing),293035,89.28141614490501
+Sound recording,Date present,Publisher present,Place identified,3399,17.978419549349415
+Sound recording,Date present,Publisher present,Place unresolved,1076,5.691314926478366
+Sound recording,Date present,Publisher present,Explicitly unknown / ambiguous,96,0.5077753094255791
+Sound recording,Date present,Publisher missing,Not assessed (Publisher missing),5,0.026446630699248914
+Sound recording,Date missing,Publisher present,Place identified,63,0.33322754681053635
+Sound recording,Date missing,Publisher present,Place unresolved,68,0.35967417750978525
+Sound recording,Date missing,Publisher present,Explicitly unknown / ambiguous,5,0.026446630699248914
+Sound recording,Date missing,Publisher missing,Not assessed (Publisher missing),14194,75.07669522902782
+Still image,Date present,Publisher present,Place identified,1395,34.80538922155689
+Still image,Date present,Publisher present,Place unresolved,644,16.067864271457086
+Still image,Date present,Publisher present,Explicitly unknown / ambiguous,77,1.9211576846307385
+Still image,Date present,Publisher missing,Not assessed (Publisher missing),106,2.6447105788423153
+Still image,Date missing,Publisher present,Place identified,1,0.024950099800399198
+Still image,Date missing,Publisher present,Place unresolved,5,0.124750499001996
+Still image,Date missing,Publisher missing,Not assessed (Publisher missing),1780,44.411177644710584
+Software / multimedia,Date present,Publisher present,Place identified,652,51.257861635220124
+Software / multimedia,Date present,Publisher present,Place unresolved,435,34.19811320754717
+Software / multimedia,Date present,Publisher present,Explicitly unknown / ambiguous,16,1.257861635220126
+Software / multimedia,Date present,Publisher missing,Not assessed (Publisher missing),2,0.15723270440251574
+Software / multimedia,Date missing,Publisher present,Place identified,34,2.6729559748427674
+Software / multimedia,Date missing,Publisher present,Place unresolved,26,2.044025157232704
+Software / multimedia,Date missing,Publisher present,Explicitly unknown / ambiguous,7,0.550314465408805
+Software / multimedia,Date missing,Publisher missing,Not assessed (Publisher missing),100,7.861635220125786
+Cartographic,Date present,Publisher present,Place identified,49410,62.14156353757924
+Cartographic,Date present,Publisher present,Place unresolved,24821,31.21667169735386
+Cartographic,Date present,Publisher present,Explicitly unknown / ambiguous,1457,1.8324278096387967
+Cartographic,Date present,Publisher missing,Not assessed (Publisher missing),764,0.9608612536472482
+Cartographic,Date missing,Publisher present,Place identified,58,0.07294496428212094
+Cartographic,Date missing,Publisher present,Place unresolved,78,0.098098400241473
+Cartographic,Date missing,Publisher present,Explicitly unknown / ambiguous,13,0.01634973337357883
+Cartographic,Date missing,Publisher missing,Not assessed (Publisher missing),2911,3.6610826038836906
+Moving image,Date present,Publisher present,Place identified,1159,66.22857142857143
+Moving image,Date present,Publisher present,Place unresolved,357,20.4
+Moving image,Date present,Publisher present,Explicitly unknown / ambiguous,47,2.685714285714286
+Moving image,Date present,Publisher missing,Not assessed (Publisher missing),15,0.8571428571428572
+Moving image,Date missing,Publisher present,Place identified,4,0.2285714285714286
+Moving image,Date missing,Publisher present,Place unresolved,1,0.05714285714285715
+Moving image,Date missing,Publisher missing,Not assessed (Publisher missing),167,9.542857142857143
+Text,Date present,Publisher present,Place identified,3115551,66.91270006097322
+Text,Date present,Publisher present,Place unresolved,826071,17.741529845625443
+Text,Date present,Publisher present,Explicitly unknown / ambiguous,44404,0.9536648681107948
+Text,Date present,Publisher missing,Not assessed (Publisher missing),44778,0.9616972674593542
+Text,Date missing,Publisher present,Place identified,70997,1.5248028249991463
+Text,Date missing,Publisher present,Place unresolved,66960,1.438100161442636
+Text,Date missing,Publisher present,Explicitly unknown / ambiguous,3619,0.0777252760492966
+Text,Date missing,Publisher missing,Not assessed (Publisher missing),483763,10.389779695340113
+Other / not recorded,Date present,Publisher present,Place identified,826,0.5050227137939679
+Other / not recorded,Date present,Publisher present,Place unresolved,308,0.1883135542960558
+Other / not recorded,Date present,Publisher present,Explicitly unknown / ambiguous,30,0.01834222931455089
+Other / not recorded,Date present,Publisher missing,Not assessed (Publisher missing),4682,2.8626105883575756
+Other / not recorded,Date missing,Publisher present,Place identified,20,0.012228152876367259
+Other / not recorded,Date missing,Publisher present,Place unresolved,24,0.014673783451640712
+Other / not recorded,Date missing,Publisher present,Explicitly unknown / ambiguous,14,0.008559707013457082
+Other / not recorded,Date missing,Publisher missing,Not assessed (Publisher missing),157653,96.39024927089639
