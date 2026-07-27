@@ -607,24 +607,23 @@ def render_page3(
     metric_columns = st.columns(4)
     metric_columns[0].metric("Filtered records", format_count(total))
     metric_columns[1].metric(
-        "Date and Publisher missing",
-        format_count(both_missing),
-        f"{percentage(both_missing, total):.1f}%",
-        delta_color="off",
-    )
-    metric_columns[2].metric(
-        "Place unresolved",
-        format_count(results["Place unresolved"]),
-        f"{percentage(results['Place unresolved'], total):.1f}%",
-        delta_color="off",
-    )
-    metric_columns[3].metric(
-        "Place identified",
-        format_count(results["Place identified"]),
-        f"{percentage(results['Place identified'], total):.1f}%",
-        delta_color="off",
-    )
-
+    "Date and Publisher missing",
+    format_count(both_missing),
+    f"{percentage(both_missing, total):.1f}%",
+    delta_color="off",
+)
+metric_columns[2].metric(
+    "Place unresolved",
+    format_count(results["Place unresolved"]),
+    f"{percentage(results['Place unresolved'], total):.1f}%",
+    delta_color="off",
+)
+metric_columns[3].metric(
+    "Place identified",
+    format_count(results["Place identified"]),
+    f"{percentage(results['Place identified'], total):.1f}%",
+    delta_color="off",
+)
     st.markdown(
         '<div class="section-label">1 · Metadata pathways</div>',
         unsafe_allow_html=True,
